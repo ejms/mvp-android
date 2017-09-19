@@ -21,8 +21,6 @@ public class CityHolder extends RecyclerView.ViewHolder {
 
     @Bind(R.id.item_city_iv_weather)
     ImageView ivWeather;
-    @Bind(R.id.item_city_tv_city)
-    TextView tvCity;
     @Bind(R.id.item_city_tv_temp)
     TextView tvTemp;
 
@@ -47,7 +45,6 @@ public class CityHolder extends RecyclerView.ViewHolder {
             image = WeatherRepository.getIconUrlForId(city.weatherList.get(0).icon);
         }
         ImageLoader.loadImage(context, image, ivWeather);
-        tvCity.setText(city.name);
         tvTemp.setText(context.getString(R.string.temperature_value, city.main.temp));
     }
 
