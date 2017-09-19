@@ -9,10 +9,7 @@ import com.valmaraz.mvp.model.entity.City;
 import com.valmaraz.mvp.model.entity.Group;
 import com.valmaraz.mvp.model.network.NetworkCallback;
 
-/**
- * Created by Víctor Almaraz on 16/04/2016.
- * http://www.valmaraz.com
- */
+
 public class WeatherClient extends BaseClient {
 
     public WeatherClient() {

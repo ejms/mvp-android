@@ -1,9 +1,6 @@
 package com.valmaraz.mvp;
 
-/**
- * Created by Victor on 19/04/2016.
- * http://www.valmaraz.com
- */
+
 public class Environment {
 
     public static long CACHE_MAX_LIFETIME_IN_MILLIS = 5 * 1000;
@@ -13,7 +10,7 @@ public class Environment {
     public static boolean useSnackbar = true;
     public static String apiUrl = "http://api.openweathermap.org";
     public static String apiBaseUrl = "http://api.openweathermap.org/data/2.5/";
-    public static String apiKey = "dc6ac0462871834b4e77f8b3e5f98d63";
+    public static String apiKey = "c9070d7432f57f4f67867f32347574e9";
 
     private static Type type = Type.DEVELOP;
 
@@ -24,21 +21,21 @@ public class Environment {
                 useSnackbar = true;
                 apiUrl = "http://api.openweathermap.org";
                 apiBaseUrl = "http://api.openweathermap.org/data/2.5/";
-                apiKey = "dc6ac0462871834b4e77f8b3e5f98d63";
+                apiKey = "c9070d7432f57f4f67867f32347574e9";
                 break;
             case PREPRODUCTION:
                 showLog = true;
                 useSnackbar = true;
                 apiUrl = "http://api.openweathermap.org";
                 apiBaseUrl = "http://api.openweathermap.org/data/2.5/";
-                apiKey = "dc6ac0462871834b4e77f8b3e5f98d63";
+                apiKey = "c9070d7432f57f4f67867f32347574e9";
                 break;
             case PRODUCTION:
                 showLog = false;
                 useSnackbar = true;
                 apiUrl = "http://api.openweathermap.org";
                 apiBaseUrl = "http://api.openweathermap.org/data/2.5/";
-                apiKey = "dc6ac0462871834b4e77f8b3e5f98d63";
+                apiKey = "c9070d7432f57f4f67867f32347574e9";
                 break;
         }
     }

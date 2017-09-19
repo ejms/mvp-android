@@ -11,10 +11,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Retrofit;
 
-/**
- * Created by Víctor Almaraz on 16/04/2016.
- * http://www.valmaraz.com
- */
+
 public class Network {
 
     private static final String TAG = "Network";

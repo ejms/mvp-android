@@ -20,10 +20,7 @@ import com.valmaraz.mvp.view.component.UIMessage;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-/**
- * Created by Victor on 08/05/2016.
- * http://www.valmaraz.com
- */
+
 public class WeatherDetailsActivity extends BaseActivity implements WeatherDetailsView {
 
     private static final String EXTRA_CITY = "EXTRA_CITY";

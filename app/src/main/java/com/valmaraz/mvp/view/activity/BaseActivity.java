@@ -7,10 +7,7 @@ import android.view.MenuItem;
 
 import com.valmaraz.mvp.Navigator;
 
-/**
- * Created by Víctor Almaraz on 16/04/2016.
- * http://www.valmaraz.com
- */
+
 public class BaseActivity extends AppCompatActivity {
 
     protected Navigator navigator;

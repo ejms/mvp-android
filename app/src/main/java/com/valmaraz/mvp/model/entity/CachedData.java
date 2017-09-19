@@ -2,10 +2,6 @@ package com.valmaraz.mvp.model.entity;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by vAlmaraz on 27/07/2016.
- * https://www.valmaraz.com
- */
 public class CachedData {
 
     @SerializedName("id")

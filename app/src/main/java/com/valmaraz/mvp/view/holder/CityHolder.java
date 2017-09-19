@@ -16,10 +16,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created by Victor on 13/04/2016.
- * http://www.valmaraz.com
- */
+
 public class CityHolder extends RecyclerView.ViewHolder {
 
     @Bind(R.id.item_city_iv_weather)

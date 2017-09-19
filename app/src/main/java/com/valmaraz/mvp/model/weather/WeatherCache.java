@@ -12,10 +12,7 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by vAlmaraz on 18/09/2016.
- * https://www.valmaraz.com
- */
+
 
 public class WeatherCache extends BaseCache {
 

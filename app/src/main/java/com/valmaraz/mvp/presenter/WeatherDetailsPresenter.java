@@ -4,10 +4,7 @@ import com.valmaraz.mvp.model.entity.City;
 import com.valmaraz.mvp.model.weather.WeatherRepository;
 import com.valmaraz.mvp.view.WeatherDetailsView;
 
-/**
- * Created by Victor on 08/05/2016.
- * http://www.valmaraz.com
- */
+
 public class WeatherDetailsPresenter implements Presenter, WeatherRepository.WeatherDetailsListener {
 
     private WeatherDetailsView view;

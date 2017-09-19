@@ -12,10 +12,6 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.TimeZone;
 
-/**
- * Created by Victor on 14/05/2016.
- * http://www.valmaraz.com
- */
 public class WeatherDict {
 
     private static final String FILE_NAME = "weather";

@@ -25,10 +25,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created by Victor on 13/04/2016.
- * http://www.valmaraz.com
- */
+
 public class WeatherListActivity extends BaseActivity implements WeatherListView, OnRecyclerViewClickListener {
 
     @Bind(R.id.act_weatherlist_cl)

@@ -4,10 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-/**
- * Created by Víctor Almaraz on 16/04/2016.
- * http://www.valmaraz.com
- */
+
 public class Group {
 
     @SerializedName("cnt")

@@ -5,10 +5,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Url;
 
-/**
- * Created by Víctor Almaraz on 16/04/2016.
- * http://www.valmaraz.com
- */
+
 public interface RetrofitService {
 
     @GET("")

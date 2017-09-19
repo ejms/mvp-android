@@ -7,10 +7,7 @@ import com.valmaraz.mvp.model.entity.City;
 import com.valmaraz.mvp.view.activity.BaseActivity;
 import com.valmaraz.mvp.view.activity.WeatherDetailsActivity;
 
-/**
- * Created by Victor on 08/05/2016.
- * http://www.valmaraz.com
- */
+
 public class Navigator {
 
     public Navigator() {

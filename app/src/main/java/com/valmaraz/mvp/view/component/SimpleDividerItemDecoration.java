@@ -6,10 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-/**
- * Created by Víctor Almaraz on 17/04/2016.
- * http://www.valmaraz.com
- */
+
 public class SimpleDividerItemDecoration extends RecyclerView.ItemDecoration {
     private Drawable divider;
 

@@ -15,10 +15,7 @@ import com.valmaraz.mvp.view.holder.CityHolder;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Victor on 13/04/2016.
- * http://www.valmaraz.com
- */
+
 public class MainAdapter extends RecyclerView.Adapter<CityHolder> implements OnHolderClickListener {
 
     private Context context;

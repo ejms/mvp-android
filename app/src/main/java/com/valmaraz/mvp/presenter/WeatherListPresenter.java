@@ -6,10 +6,7 @@ import com.valmaraz.mvp.view.WeatherListView;
 
 import java.util.List;
 
-/**
- * Created by Victor on 13/04/2016.
- * http://www.valmaraz.com
- */
+
 public class WeatherListPresenter implements Presenter, WeatherRepository.WeatherListListener {
 
     private WeatherListView view;
